@@ -24,7 +24,7 @@ st.set_page_config(
 st.markdown("""
     <style>
         :root {
-            --primary: #E91E63;
+            --primary: #C2185B;
             --secondary: #FFFFFF;
             --dark: #121212;
         }
@@ -40,11 +40,11 @@ st.markdown("""
         .title-section {
             text-align: center;
             padding: 2rem 0;
-            background: linear-gradient(135deg, #E91E63 0%, #C2185B 100%);
+            background: linear-gradient(135deg, #C2185B 0%, #A01347 100%);
             color: white;
             border-radius: 15px;
             margin-bottom: 2rem;
-            box-shadow: 0 8px 32px rgba(233, 30, 99, 0.2);
+            box-shadow: 0 8px 32px rgba(194, 24, 91, 0.2);
         }
         
         .title-section h1 {
@@ -66,18 +66,18 @@ st.markdown("""
             margin-top: 2rem;
             margin-bottom: 1rem;
             padding-bottom: 1rem;
-            border-bottom: 3px solid #E91E63;
+            border-bottom: 3px solid #C2185B;
         }
         
         .section-header h2 {
             margin: 0;
-            color: #E91E63;
+            color: #C2185B;
             font-weight: 700;
         }
         
         .step-badge {
             display: inline-block;
-            background-color: #E91E63;
+            background-color: #C2185B;
             color: white;
             padding: 0.3rem 0.8rem;
             border-radius: 20px;
@@ -88,23 +88,23 @@ st.markdown("""
         
         .success-box {
             background-color: #F3E5F5;
-            border-left: 5px solid #E91E63;
+            border-left: 5px solid #C2185B;
             padding: 1.5rem;
             border-radius: 8px;
             margin: 1rem 0;
         }
         
         .info-box {
-            background-color: #FCE4EC;
-            border-left: 5px solid #E91E63;
+            background-color: #F8BBD0;
+            border-left: 5px solid #C2185B;
             padding: 1.5rem;
             border-radius: 8px;
             margin: 1rem 0;
-            color: #880E4F;
+            color: #7B1D42;
         }
         
         .process-button {
-            background: linear-gradient(135deg, #E91E63 0%, #C2185B 100%);
+            background: linear-gradient(135deg, #C2185B 0%, #A01347 100%);
             color: white;
             padding: 1rem 2rem;
             border: none;
@@ -113,17 +113,17 @@ st.markdown("""
             cursor: pointer;
             font-size: 1rem;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(233, 30, 99, 0.3);
+            box-shadow: 0 4px 15px rgba(194, 24, 91, 0.3);
         }
         
         .process-button:hover {
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(233, 30, 99, 0.4);
+            box-shadow: 0 6px 20px rgba(194, 24, 91, 0.4);
         }
         
         .task-item {
             background-color: #FFFFFF;
-            border-left: 4px solid #E91E63;
+            border-left: 4px solid #C2185B;
             padding: 1rem;
             margin: 0.5rem 0;
             border-radius: 4px;
@@ -131,20 +131,20 @@ st.markdown("""
         }
         
         .download-button {
-            background: linear-gradient(135deg, #E91E63 0%, #C2185B 100%);
+            background: linear-gradient(135deg, #C2185B 0%, #A01347 100%);
             color: white;
         }
         
         .instruction-section {
-            background: linear-gradient(135deg, #F3E5F5 0%, #FCE4EC 100%);
-            border: 2px solid #E91E63;
+            background: linear-gradient(135deg, #F3E5F5 0%, #F8BBD0 100%);
+            border: 2px solid #C2185B;
             padding: 1.5rem;
             border-radius: 12px;
             margin-bottom: 2rem;
         }
         
         .instruction-section h3 {
-            color: #E91E63;
+            color: #C2185B;
             margin-top: 0;
         }
         
@@ -159,7 +159,7 @@ st.markdown("""
             content: "→";
             position: absolute;
             left: 0;
-            color: #E91E63;
+            color: #C2185B;
             font-weight: bold;
         }
     </style>
